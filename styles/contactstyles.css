@@ -1,0 +1,78 @@
+
+html *{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+}
+main{
+    margin: 15px 100px;
+    padding: 20px;
+    border: black solid 1px;
+    background: burlywood;
+    min-height: 500px;
+}
+nav{
+    text-align: center;
+}
+ul{
+    list-style: none;
+}
+li{
+    display: inline-block;
+}
+nav ul{
+    padding: 20px;
+    margin: 0;
+    font-size: 22px;
+}
+nav ul li{
+    text-decoration: underline;
+    padding: 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    padding: 15px;
+}
+a:link,
+a:visited,
+nav ul a:hover{
+    color: bisque;
+}
+nav ul li:hover{
+    background-color: bisque;
+    color: black;
+}
+.selected{
+    background-color: bisque ;
+}
+
+header p{
+    font-style: italic;
+    text-align: center;
+    font-weight: 900;
+}
+.required{
+    font-weight: bold;
+    color: red;
+}
+label {
+    float: left;
+    width: 112px;
+    padding-right: 10px;
+    text-align: right;
+}
+input{
+    margin-left: 1em;
+    margin-bottom: .5em;
+    width: 300px;}
+
+    input[type="checkbox"] {width: 15px;}
+    input[type="radio"] {width: 10px;}
+
+    #button, #reset {
+        margin-left: 1em;
+        margin-top: .5em;
+        width: 10em;
+        background-color: brown;
+        border: 3px solid black;
+        color: white;
+    }

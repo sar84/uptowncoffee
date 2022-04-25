@@ -1,0 +1,126 @@
+html
+{
+    padding: 0;
+    margin: 0;
+}
+html * {
+    
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif 
+}
+body{
+    background-color: burlywood;
+    color: black;
+}
+h1{
+    float: left;
+    padding-left: 50px;
+    padding-top: 60px;
+    font-style: italic;
+    font-size: 50px; 
+}
+nav{
+    text-align: center;
+}
+ul{
+    list-style: none;
+}
+li{
+    display: inline-block;
+}
+
+aside {
+    width: 33%;
+    float: right; }
+
+#uptownlogo{
+    float: left;
+    width: 450px;
+    height: 300px;
+}
+
+nav ul{
+    padding: 20px;
+    margin: 0;
+    font-size: 22px;
+}
+nav ul li{
+    text-decoration: underline;
+    padding: 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    padding: 15px;
+}
+a:link,
+a:visited,
+nav ul a:hover{
+    color: bisque;
+}
+nav ul li:hover{
+    background-color: bisque;
+    color: black;
+}
+.selected{
+    background-color: bisque ;
+}
+footer{
+    
+    clear: both;
+    background-color: bisque;
+}
+footer ul{
+    width: 290px;
+    margin: 10px auto;
+}
+footer ul li{
+    margin: 0 10px;
+    
+}
+footer p{
+    clear: both;
+    text-align: center;
+    width: 100%;
+}
+footer a{
+    text-decoration: none;
+}
+.social{
+    width: 40%;
+    float: left;
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-bottom: 2px;
+}
+.cafe{
+    width: 40%;
+    float: left;
+    border-radius: 5px;
+    border-color: white;
+    margin-right: 10px;
+    margin-bottom: 2px;
+}
+.coffeeproducts img{
+    width: 24.5%;
+    height: 300px;
+    border: 2px solid white;
+}
+.menu{
+    width: 60%;
+    border-radius: 5px;
+    padding-left: 260px;
+    margin-bottom: 150px;
+    margin-top: 100px;
+   
+}
+.address p{
+    padding-top: 40px;
+    text-align: center;
+}
+.col{
+    column-count: 3;
+    column-rule: 1px solid black;
+    column-gap: 20px;
+}
+p{
+   text-align: justify; 
+}

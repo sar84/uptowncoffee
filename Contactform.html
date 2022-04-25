@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<!--THIS IS A COLLEGE PROJECT-->
+<html lang="en">
+<head>
+    <title>Contact form</title>
+    <meta charset="utf-8">
+    <meta name="description" content="Contact us, send a query"/>
+    <meta name="keywords" content="Contact,query,email"/>
+    <link rel="stylesheet" type="text/css" href="styles/contactstyles.css">
+    <link rel="icon" href="images1/fav.png" type="image/gif" sizes="16x16">
+   
+    
+<head>
+    <body>
+        <style>
+            body{
+    font-family: sans-serif;
+    background-image:url(images1/beans_background.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 18px;
+    }
+        </style>
+            <header>
+                <img id="uptownlogo" src="images1/uptownlogo.png" alt="uptownlogo" >
+                <h2>Questions and Queries </h2>
+                <style>
+                    h2{
+                        text-align: center;
+                        color: burlywood;
+                        font-size: 75px;
+                        text-decoration: underline;
+                    }
+                </style>
+            </header>
+            <nav>
+                <ul>
+                    <a href="index.html"><li>Home</li></a>
+                    <a href="ourproducts.html"><li>Our Products</li></a>
+                    <a href="contactus.html"><li>Contact Us</li></a>
+                    <li class="selected">Contact form</li>
+                </ul>
+            </nav>
+        <main>
+           <section>
+               <h3>Please enter the following information</h3>
+               <form action="http:/foo.com" method="get">
+                  <label for="first name">first name:<span class="required">*</span></label>
+                  <input type="text" name="first name" id="first name" autofocus required><br>
+                  <label for="last name">last name:<span class="required">*</span></label>
+                  <input type="text" name="last name" id="last name"  required><br>
+                  <label for="email">email:<span class="required">*</span></label>
+                  <input type="email" name="email" id="email" required placeholder="example@example.com"><br>
+                  <label for="gender"> Gender :</label>
+                  <input type="radio" id="gender" name="gender" value="male"> male
+                  <input type="radio" id="gender" name="gender" value="female"> female
+                  <input type="radio" id="gender" name="gender" value="other">   other <br>
+                  <label for="internet">heard about us?</label>
+                  <fieldset>
+                      <input type="checkbox" id="internet" name="internet" value="internet" checked> internet <br>
+                      <input type="checkbox" class="margin1" id="hear" name="paper" value="paper"> newspaper <br>
+                      <input type="checkbox" class="margin1" id="hear" name="friend" value="friend"> friend <br>
+                      <input type="checkbox" class="margin1" id="hear" name="add" value="add"> others<br>
+                  </fieldset><br>
+                  <label for="message">Query : </label>
+                  <textarea cols="50" rows="6"
+                  id="message" name="message" placeholder="Your message must be less then 200 charecters" data-maxlength="200"></textarea><br>
+                  <input type="submit" name="submit" id="button" value="submit">
+                  <input type="reset" name="reset" id="reset">
+                </form>
+                <p style="margin-left: 138px"> <span class="required"></span> <em>* indicates required field</em></p>
+           </section>
+
+        </main>
+    </body>
+   
+</head>
+</html>
